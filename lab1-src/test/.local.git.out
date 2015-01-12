@@ -1,0 +1,50 @@
+[master ccee180] 0 of 100
+ Committer: CS24000 Account <cs240@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 3 files changed, 18 insertions(+)
+ create mode 100644 test/.local.git.out
+ create mode 100644 test/.local.total.out
+ create mode 100644 test/total.out
+[master 6129316] 20 of 100
+ Committer: Junyu Xiong <xiong28@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 9 files changed, 62 insertions(+), 4 deletions(-)
+ create mode 100755 a.out
+ create mode 100755 exp
+ create mode 100755 hello
+ create mode 100644 hello.c
+ create mode 100755 high-low
+[master 9e0e1bb] 100 of 100
+ Committer: Junyu Xiong <xiong28@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 5 files changed, 34 insertions(+), 6 deletions(-)
