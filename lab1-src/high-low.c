@@ -3,7 +3,7 @@
 int
 main(int argc, char **argv) {
     int high, low, mid;
-    char *yn = NULL;
+    char yn[2] = NULL;
     printf("Welcome to the High Low game...\n");
 
     // Write your implementation here...
