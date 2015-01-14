@@ -16,7 +16,7 @@ main(int argc, char **argv) {
         high_low(high, low);
         printf("Do you want to continue playing (y/n)?");
         scanf("%c", &yn);
-        getchar();
+        // getchar();
     } while (yn == 'y');
     printf("Thanks for playing!!!\n");
 }
@@ -25,14 +25,15 @@ void high_low(int high, int low) {
     printf("Think of a number between 1 and 100 and press press <enter>\n");
     while (high >= low) {
         int mid = (high + low)/2;
-        char yn = ' ';
+        char yn[2];
         printf("Is it higher than %d? (y/n)\n", mid);
-        scanf("%c", &yn);
-        getchar();
+        scanf("%s", &yn);
+        //getchar();
+        // printf("\n\t%c", yn);
         //yn = getchar();                                                       
-        if (yn == 'y') {
+        if (yn[0] == 'y') {
             low = mid+1;
-        } else if(yn == 'n') {
+        } else if(yn[0] == 'n') {
             high = mid-1;
         } else {
             printf("Type y or n\n");

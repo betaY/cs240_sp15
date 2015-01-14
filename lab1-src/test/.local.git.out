@@ -52,3 +52,6 @@ After doing this, you may fix the identity used for this commit with:
  1 file changed, 9 insertions(+)
 [master ffb9551] 100 of 100
  2 files changed, 11 insertions(+)
+[master 3cbd168] 20 of 100
+ 4 files changed, 20 insertions(+), 9 deletions(-)
+ rewrite lab1-src/high-low (80%)
