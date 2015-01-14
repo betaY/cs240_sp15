@@ -1,9 +1,10 @@
 #include <stdio.h>
 
+void high_low(int, int );
 int
 main(int argc, char **argv) {
     int high, low, mid;
-    char yn[2] = NULL;
+    char *yn = NULL;
     printf("Welcome to the High Low game...\n");
 
     // Write your implementation here...
