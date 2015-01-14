@@ -48,3 +48,5 @@ After doing this, you may fix the identity used for this commit with:
     git commit --amend --reset-author
 
  5 files changed, 34 insertions(+), 6 deletions(-)
+[master 17f53b4] 100 of 100
+ 1 file changed, 9 insertions(+)
