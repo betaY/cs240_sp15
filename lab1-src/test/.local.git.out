@@ -59,3 +59,5 @@ After doing this, you may fix the identity used for this commit with:
  6 files changed, 22 insertions(+), 9 deletions(-)
  delete mode 100755 lab1-src/a.out
  rewrite lab1-src/high-low (85%)
+[master fc531f5] 100 of 100
+ 5 files changed, 20 insertions(+), 7 deletions(-)
