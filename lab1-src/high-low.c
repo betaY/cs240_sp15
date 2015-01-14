@@ -4,7 +4,7 @@ void high_low(int, int );
 int
 main(int argc, char **argv) {
     int high, low, mid;
-    char yn = ' ';
+    char yn[2];
     printf("Welcome to the High Low game...\n");
 
     // Write your implementation here...
@@ -15,9 +15,9 @@ main(int argc, char **argv) {
         low = 1;
         high_low(high, low);
         printf("Do you want to continue playing (y/n)?");
-        scanf("%c", &yn);
+        scanf("%s", yn);
         // getchar();
-    } while (yn == 'y');
+    } while (yn[0] == 'y');
     printf("Thanks for playing!!!\n");
 }
 
@@ -27,7 +27,7 @@ void high_low(int high, int low) {
         int mid = (high + low)/2;
         char yn[2];
         printf("Is it higher than %d? (y/n)\n", mid);
-        scanf("%s", &yn);
+        scanf("%s", yn);
         //getchar();
         // printf("\n\t%c", yn);
         //yn = getchar();                                                       

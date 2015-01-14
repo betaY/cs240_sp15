@@ -55,3 +55,7 @@ After doing this, you may fix the identity used for this commit with:
 [master 3cbd168] 20 of 100
  4 files changed, 20 insertions(+), 9 deletions(-)
  rewrite lab1-src/high-low (80%)
+[master a7042fa] 60 of 100
+ 6 files changed, 22 insertions(+), 9 deletions(-)
+ delete mode 100755 lab1-src/a.out
+ rewrite lab1-src/high-low (85%)
