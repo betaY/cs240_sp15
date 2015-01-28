@@ -35,6 +35,7 @@ main() {
   printf("&a=0x%lX\n", (unsigned long)&a);
   printf("&b=0x%lX\n", (unsigned long)&b);
   printf("&x=0x%lX\n", (unsigned long)&x.a);
+  printf("&x.i=0x%lX\n", (unsigned long)&x.i);
   printf("&y=0x%lX\n", (unsigned long) &y);
 
   mymemdump(stdout, (char *) &x.a, 64);
