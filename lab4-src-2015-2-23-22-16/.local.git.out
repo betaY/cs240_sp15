@@ -1,0 +1,134 @@
+[master (root-commit) e831346] 9 of 72
+ Committer: CS24000 Account <cs240@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 42 files changed, 1515 insertions(+)
+ create mode 100644 .local.git.out
+ create mode 100644 .local.total.out
+ create mode 100644 LinkedList.c
+ create mode 100644 LinkedList.h
+ create mode 100644 Makefile
+ create mode 100644 array.c
+ create mode 100644 array.h
+ create mode 100755 check-array.sh
+ create mode 100755 check-strfunc.sh
+ create mode 100644 cosmos.txt
+ create mode 100644 diff.out
+ create mode 100644 hamlet-long.txt
+ create mode 100644 hamlet-short.txt
+ create mode 100644 hamlet.txt
+ create mode 100644 mystring.c
+ create mode 100644 mystring.h
+ create mode 100644 mystring.o
+ create mode 100644 mytable.ll
+ create mode 100644 none
+ create mode 100755 ptr-simple
+ create mode 100644 ptr-simple.c
+ create mode 100755 simple_list
+ create mode 100644 simple_list.c
+ create mode 100644 table1.ll
+ create mode 100755 test_array
+ create mode 100644 test_array.c
+ create mode 100755 test_array.org
+ create mode 100644 test_array.org.out
+ create mode 100644 test_array.out
+ create mode 100755 test_linked_list
+ create mode 100644 test_linked_list.c
+ create mode 100755 test_linked_list.org
+ create mode 100644 test_linked_list.org.out
+ create mode 100644 test_linked_list.out
+ create mode 100755 test_mystring
+ create mode 100644 test_mystring.c
+ create mode 100755 test_mystring.org
+ create mode 100644 test_mystring.org.out
+ create mode 100644 test_mystring.out
+ create mode 100755 testall
+ create mode 100644 total.out
+ create mode 100644 total.txt
+[master ba7f302] 36 of 72
+ 13 files changed, 152 insertions(+), 22 deletions(-)
+ rewrite mystring.o (96%)
+ rewrite test_array (82%)
+ rewrite test_mystring (77%)
+[master ad1fabf] 39 of 72
+ 7 files changed, 35 insertions(+), 4 deletions(-)
+[master 375e1b5] 39 of 72
+ 5 files changed, 8 insertions(+), 3 deletions(-)
+[master cd27b00] 39 of 72
+ 5 files changed, 10 insertions(+), 8 deletions(-)
+[master 0b27453] 42 of 72
+ 7 files changed, 19 insertions(+), 3 deletions(-)
+[master f0989e0] 42 of 72
+ 5 files changed, 13 insertions(+), 2 deletions(-)
+[master aeee088] 42 of 72
+ 5 files changed, 10 insertions(+), 2 deletions(-)
+[master 5ca061e] 45 of 72
+ 6 files changed, 9 insertions(+), 4 deletions(-)
+[master 3e98edd] 48 of 72
+ 6 files changed, 12 insertions(+), 9 deletions(-)
+[master 1f70864] 48 of 72
+ 3 files changed, 5 insertions(+), 1 deletion(-)
+[master ba5504c] 48 of 72
+ 5 files changed, 18 insertions(+), 2 deletions(-)
+ rewrite test_linked_list (71%)
+[master a3f3ca3] 48 of 72
+ 5 files changed, 7 insertions(+), 2 deletions(-)
+[master cb3059b] 48 of 72
+ 3 files changed, 5 insertions(+), 1 deletion(-)
+[master 563a2bf] 48 of 72
+ 5 files changed, 28 insertions(+), 12 deletions(-)
+[master a4045f9] 51 of 72
+ 6 files changed, 8 insertions(+), 3 deletions(-)
+[master 7c94b28] 54 of 72
+ 6 files changed, 15 insertions(+), 3 deletions(-)
+[master b9311a1] 57 of 72
+ 6 files changed, 24 insertions(+), 3 deletions(-)
+[master 33a98e7] 57 of 72
+ 5 files changed, 17 insertions(+), 2 deletions(-)
+ rewrite test_linked_list (73%)
+[master 20bfc63] 57 of 72
+ 6 files changed, 10 insertions(+), 3 deletions(-)
+ rewrite test_linked_list (69%)
+[master c46b504] 60 of 72
+ 6 files changed, 8 insertions(+), 6 deletions(-)
+ rewrite test_linked_list (64%)
+[master 5c15330] 63 of 72
+ 7 files changed, 32 insertions(+), 2 deletions(-)
+ create mode 100644 nonexsting.rt
+ rewrite test_linked_list (73%)
+[master 75d685d] 63 of 72
+ 5 files changed, 44 insertions(+), 1 deletion(-)
+[master f4bec20] 63 of 72
+ 5 files changed, 21 insertions(+), 5 deletions(-)
+ rewrite test_linked_list (69%)
+[master 900152c] 63 of 72
+ 5 files changed, 8 insertions(+), 3 deletions(-)
+[master 2a2616f] 66 of 72
+ 6 files changed, 8 insertions(+), 4 deletions(-)
+[master 2d78fe1] 66 of 72
+ 5 files changed, 8 insertions(+), 10 deletions(-)
+[master 17ea131] 66 of 72
+ 5 files changed, 29 insertions(+), 6 deletions(-)
+[master 70efbfe] 66 of 72
+ 5 files changed, 49 insertions(+), 21 deletions(-)
+[master 62a0c46] 66 of 72
+ 5 files changed, 32 insertions(+), 26 deletions(-)
+[master f24a9d5] 66 of 72
+ 7 files changed, 60 insertions(+), 62 deletions(-)
+ rewrite test_linked_list.out (98%)
+[master 9717b64] 69 of 72
+ 8 files changed, 70 insertions(+), 58 deletions(-)
+ rewrite diff.out (64%)
+[master 24f45c7] 69 of 72
+ 7 files changed, 11 insertions(+), 9 deletions(-)
+[master 93c9fba] 72 of 72
+ 8 files changed, 21 insertions(+), 7 deletions(-)

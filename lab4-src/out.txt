@@ -1,0 +1,43 @@
+Running test6
+===== Segments for word "human" in book "sagan.txt" =====
+---------- pos=62-----
+......human disagrees
+with you, let him live. In a hundred billion galaxies, you will not find
+another. 
+? Carl Sagan, Cosmos
+tags: humanity, individuality, love, mercy 2333 likes like
+The nitrogen in our D......
+---------- pos=1032-----
+......human inventions, binding together people who never knew each
+other, citizens of distant epochs. Books break the shackles of time. A book is
+proof that humans are capable of working magic."
+
+[Cosmos, ......
+---------- pos=1878-----
+......human species. I think the health of our civilization, the
+depth of our awareness about the underpinnings of our culture and our concern
+for the future can all be tested by how well we support our lib......
+---------- pos=2913-----
+......human understanding. Lost
+somewhere between immensity and eternity is our tiny planetary home. In a
+cosmic perspective, most human concerns seem insignificant, even petty. And
+yet our species is young......
+---------- pos=3038-----
+......human concerns seem insignificant, even petty. And
+yet our species is young and curious and brave and shows much promise. In the
+last few millennia we have made the most astonishing and unexpected
+dis......
+---------- pos=4137-----
+......human inventions, binding together people, citizens of
+distant epochs, who never knew one another. Books break the shackles of time. 
+? Carl Sagan, Cosmos
+tags: books 104 likes like
+Books break the sh......
+---------- pos=6752-----
+......human endeavor.  
+? Carl Sagan, Cosmos
+64 likes like
+Books are like seeds. They can lie dormant for centuries and then flower in
+the most unpromising soil. 
+? Carl Sagan, Cosmos
+tags: books 51 likes l......

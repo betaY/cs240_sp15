@@ -14,16 +14,25 @@ void stack_clear()
 double stack_pop()
 {
 	// Add implementation here`
-	return 0;
+    // int pop = stack[top--];
+	return stack[--top];
 }
 
 void stack_push(double val)
 {
 	// Add implementation here
+    stack[top++] = val;
 }
 
 void stack_print()
 {
+    printf("Stack:\n");
+    if( top == 0) {
+        printf("Stack is empty");
+    }
+    for(int i = 0; i < top; i++) {
+        printf("%d: %f\n", i, stack[i]);
+    }
 }
 
 int stack_top()
