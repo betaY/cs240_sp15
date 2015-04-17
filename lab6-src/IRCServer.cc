@@ -595,22 +595,35 @@ IRCServer::getMessages(int fd, const char * user, const char * password, const c
 						itr--;
 						
 						// cout << times << endl;
-						for (int i = 0; itr != msg.begin(); itr--, i++) {
-							if (i == (times+1)) {
+						// for (int i = 0; itr != msg.begin(); itr--, i++) {
+						// 	if (i == times) {
+						// 		break;
+						// 	}
+						// 	char temp[4]; 
+						// 	sprintf(temp, "%d ", (i+1));
+
+						// 	write(fd, temp, strlen(temp));
+						// 	message = *itr + s;
+						// 	// cout << message << endl;
+						// 	write(fd, message.c_str(), strlen(message.c_str()));
+						// }
+						// int ;
+						for(int i = times, count = 0; i < msg.size(); i++, count++) {
+							if(count == 100) {
 								break;
 							}
 							char temp[4]; 
-							sprintf(temp, "%d ", (i+1));
-
+							sprintf(temp, "%d ", i);
 							write(fd, temp, strlen(temp));
-							message = *itr + s;
-							// cout << message << endl;
+
+							message = msg[i] + s;
 							write(fd, message.c_str(), strlen(message.c_str()));
 						}
+
 						write(fd, s.c_str(), strlen(s.c_str()));
 					} else {
 
-						for(int i = times+1; i < msg.size(); i++) {
+						for(int i = times; i < msg.size(); i++) {
 							char temp[4]; 
 							sprintf(temp, "%d ", i);
 							write(fd, temp, strlen(temp));

@@ -913,3 +913,84 @@ After doing this, you may fix the identity used for this commit with:
  create mode 100644 prog.out
  create mode 100644 talk-server.out
  create mode 100644 total.out
+[master 5b25dc5] Make IRCServer
+ 7 files changed, 8 insertions(+), 216 deletions(-)
+ rewrite IRCServer.org (84%)
+ delete mode 100644 diff.out
+ delete mode 100644 prog.org.out
+ delete mode 100644 prog.out
+ delete mode 100644 talk-server.out
+ delete mode 100644 total.out
+[master 423e802] 47 of 62
+ 8 files changed, 229 insertions(+), 3 deletions(-)
+ create mode 100644 diff.out
+ create mode 100644 prog.org.out
+ create mode 100644 prog.out
+ create mode 100644 talk-server.out
+ create mode 100644 total.out
+[master d1b1f38] Make IRCServer
+ 3 files changed, 8 insertions(+), 1 deletion(-)
+[master f8b9d9f] Make IRCServer
+ 5 files changed, 113 insertions(+), 10 deletions(-)
+ delete mode 100644 password.txt
+[master aa22ad4] Make IRCServer
+ 3 files changed, 5 insertions(+), 2 deletions(-)
+ rewrite IRCServer (69%)
+[master 899182f] Make IRCServer
+ 4 files changed, 15 insertions(+), 2 deletions(-)
+ rewrite IRCServer (69%)
+[master e47786c] Make IRCServer
+ 4 files changed, 6 insertions(+), 13 deletions(-)
+[master 55d6ee3] Make IRCServer
+ 3 files changed, 3 insertions(+), 1 deletion(-)
+[master 4d22840] Make IRCServer
+ 3 files changed, 23 insertions(+), 8 deletions(-)
+[master f319d02] Make IRCServer
+ 3 files changed, 4 insertions(+), 2 deletions(-)
+[master 2071ac6] Make IRCServer
+ 6 files changed, 2 insertions(+), 326 deletions(-)
+ delete mode 100644 diff.out
+ delete mode 100644 prog.org.out
+ delete mode 100644 prog.out
+ delete mode 100644 talk-server.out
+ delete mode 100644 total.out
+[master cd3ef2a] 52 of 62
+ 9 files changed, 235 insertions(+), 1 deletion(-)
+ create mode 100644 diff.out
+ create mode 100644 password.txt
+ create mode 100644 prog.org.out
+ create mode 100644 prog.out
+ create mode 100644 talk-server.out
+ create mode 100644 total.out
+[master 46b4bf0] Make IRCServer
+ 3 files changed, 9 insertions(+), 1 deletion(-)
+[master 3388375] Make IRCServer
+ 7 files changed, 2 insertions(+), 225 deletions(-)
+ delete mode 100644 diff.out
+ delete mode 100644 password.txt
+ delete mode 100644 prog.org.out
+ delete mode 100644 prog.out
+ delete mode 100644 talk-server.out
+ delete mode 100644 total.out
+[master 992c0bc] 62 of 62
+ 9 files changed, 237 insertions(+), 2 deletions(-)
+ create mode 100644 diff.out
+ create mode 100644 password.txt
+ create mode 100644 prog.org.out
+ create mode 100644 prog.out
+ create mode 100644 talk-server.out
+ create mode 100644 total.out
+[master 5449154] Make IRCServer
+ 6 files changed, 8 insertions(+), 216 deletions(-)
+ delete mode 100644 diff.out
+ delete mode 100644 prog.org.out
+ delete mode 100644 prog.out
+ delete mode 100644 talk-server.out
+ delete mode 100644 total.out
+[master d6b87bf] 62 of 62
+ 7 files changed, 225 insertions(+)
+ create mode 100644 diff.out
+ create mode 100644 prog.org.out
+ create mode 100644 prog.out
+ create mode 100644 talk-server.out
+ create mode 100644 total.out
